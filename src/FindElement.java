@@ -7,7 +7,7 @@ public class FindElement {
         String name = sc.nextLine();
         boolean isExist = false;
         for (int i = 0; i<student.length; i++) {
-            if (student[i].equals(name)) {
+            if (name.equals(student[i])) {
                 System.out.println("Học sinh " + name + " số thứ tự thứ " + (i+1));
                 isExist = true;
             }
